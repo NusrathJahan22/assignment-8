@@ -37,8 +37,8 @@ if(!donationItems){
                   alt="ui/ux review check"
                 />
               </div>
-              <div className='bg-black  bg-opacity-30 p-2'>
-                <button onClick={handelAddToDonetion} className='bg-red-500 text-lg p-2 rounded-lg'>Donate ${price}</button>
+              <div className='bg-black  bg-opacity-30 p-3'>
+                <button onClick={handelAddToDonetion} className='bg-red-600 text-lg p-2 rounded-lg'>Donate ${price}</button>
                 </div>
               <div className="p-6">
                 <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
