@@ -31,7 +31,7 @@ console.log(donation);
                     
                  </div>}
                     {
-                    donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className='p-5 bg-green-600 mx-auto block'>{isShow ? "See Less":"See More"}</button>
+                    donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className='p-5 bg-green-700 rounded-lg mx-auto block'>{isShow ? "See Less":"See More"}</button>
                 }
                {
                 donation.forEach(card=> <AddDonation card={card}></AddDonation>)

@@ -1,5 +1,5 @@
 const AddDonation = ({card}) => {
-  const { id ,image,category,title,description,price,donate,bg,textColors,categorybg,btnColor,priceCo} = card || {}
+  const { id ,image,category,title,price,donate,bg,textColors,categorybg,btnColor,priceCo} = card || {}
     return (
         <div>
             
