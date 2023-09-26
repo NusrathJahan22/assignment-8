@@ -22,13 +22,7 @@ const { id ,image,category,title,description,price,donate,bg,textColors,category
       <p style={{backgroundColor:categorybg,color:textColors}} className="block font-sans text-base font-medium leading-relaxed  antialiased">
         {category}
       </p>
-      <p className="block font-sans text-base font-medium leading-relaxed  antialiased">
-      
-      </p>
-      <p className="block font-sans text-base font-medium leading-relaxed  antialiased">
-     
-      </p>
-      <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+    =<p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
       {donate}
       </p>
     </div>
